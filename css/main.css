@@ -1,0 +1,9 @@
+.menu {
+background: gray;
+    display: flex;
+  align-items: center;
+}
+.menu__item {
+    list-style-type: none;
+    background: blue;
+}
