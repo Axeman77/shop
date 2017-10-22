@@ -96,8 +96,11 @@
 /*content*/
 
 .slider_content {
-    background-image: url(../img/Layer%2024.png);
-    background-repeat: no-repeat;
+    width: 1600px;
+    height: 675px;
+    background: url(img/Layer 24.png),
+            url(https://hsto.org/getpro/habr/post_images/244/3aa/6bd/2443aa6bdd0b064db5d0caa9f3c8cece.png),
+            url("img/img1.jpg");
 }
 
 
@@ -109,7 +112,7 @@
 }
 */
 
+/*
 .slider_content__text {
-    display: inline-block;
-    padding: 275px 1370px 290px 230px;
-}
+     background: url(../img/Layer%2024.png),
+*/
