@@ -93,26 +93,133 @@
 }
 
 
-/*content*/
+/*slider_content*/
 
 .slider_content {
     width: 1600px;
     height: 675px;
-    background: url(img/Layer 24.png),
-            url(https://hsto.org/getpro/habr/post_images/244/3aa/6bd/2443aa6bdd0b064db5d0caa9f3c8cece.png),
-            url("img/img1.jpg");
+    background: url(../img/Rectangle%2016%20copy.png) no-repeat 275px 230px, url(../img/text.png) no-repeat 295px 230px, url(../img/Layer%2024.png);
 }
 
 
-/*
-.slider_content__pic {
+/*category_content*/
+
+.category_content {
+    width: 1141px;
+    height: 823px;
+    margin: auto;
+    margin-top: 75px;
+    background: url(../img/Category.png);
+}
+
+
+/*fetured*/
+
+.fetured {
+    width: 1141px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fetured_item1 {
+    text-transform: capitalize;
+    font-family: Lato;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fetured_item2 {
+    font-family: Lato;
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/*.fetured_product*/
+
+.fetured_product {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fetured_product1 {
     display: inline-block;
-    padding: 275px 1370px 290px 230px;
-    z-index: -1px;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%202.png) no-repeat;
 }
-*/
 
-/*
-.slider_content__text {
-     background: url(../img/Layer%2024.png),
-*/
+.fetured_product2 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%203.png) no-repeat;
+}
+
+.fetured_product3 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Image.png) no-repeat;
+}
+
+.fetured_product4 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%205.png) no-repeat;
+}
+
+.fetured_product5 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%206.png) no-repeat;
+}
+
+.fetured_product6 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%207.png) no-repeat;
+}
+
+.fetured_product7 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%208.png) no-repeat;
+}
+
+.fetured_product8 {
+    display: inline-block;
+    width: 263px;
+    height: 364px;
+    background: url(../img/Layer%209.png) no-repeat;
+}
+.fetured_product1_name {
+    padding-top: 299px;
+    padding-left: 11px;
+    font-family: Lato;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.fetured_product1_price {
+    padding-left: 11px;
+    font-family: Lato;
+    color: #f16d7f;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 700;
+    text-align: left;
+}
