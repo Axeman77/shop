@@ -61,6 +61,11 @@
     padding-right: 100px;
 }
 
+.main-menu_list__item:last-child {
+    padding-right: 0;
+}
+
+
 .main-menu_list__item a {
     text-decoration: none;
     color: black;
