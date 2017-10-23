@@ -152,8 +152,26 @@
     display: inline-block;
     width: 263px;
     height: 364px;
-    background: url(../img/Layer%202.png) no-repeat;
+    background: url(../img/Hover.png), 
+        url(../img/Layer%202.png) no-repeat;
 }
+
+
+
+.fetured_product1_link {
+    text-decoration: none;
+    
+}
+
+/*
+.fetured_product1_link a:hover {
+    
+    background: url(../img/Hover.png);
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 263px;
+    height: 364px;
+}
+*/
 
 .fetured_product2 {
     display: inline-block;
@@ -203,6 +221,7 @@
     height: 364px;
     background: url(../img/Layer%209.png) no-repeat;
 }
+
 .fetured_product1_name {
     padding-top: 299px;
     padding-left: 11px;
@@ -223,3 +242,54 @@
     font-weight: 700;
     text-align: left;
 }
+
+/*button*/
+.fetured_product_btn {
+    margin-top: 57px;
+}
+
+
+.button{
+ margin-left: 464px; 
+ text-decoration:none; 
+ text-align:center; 
+ padding:11px 32px; 
+ border:none; 
+ font:16px Lato; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background:#f16d7e; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+    }
+/*feature_banner*/
+.feature__banner {
+    margin-top: 110px;
+}
+
+
+/*subsribe*/
+
+.subsribe {
+    margin-top: 97px;
+    height: 438px;
+    background: url(../img/Layer%2041.png)
+}
+
+.footer {
+    margin-top: 119px;
+    height: 428px;
+    background-color: beige;
+    
+}
+
+.footer__copyright {
+        height: 79px;
+    background-color: #e6e6e6;
+}
+
+
+
+
+
