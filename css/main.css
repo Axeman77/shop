@@ -103,8 +103,6 @@ header {
 .contanierlogo__accaunt a {
     float: right;
 }
-    
-
 
 .contanierlogo__accaunt form select {
     width: 130px;
@@ -120,10 +118,7 @@ header {
     line-height: 32px;
     text-transform: capitalize;
     padding-left: 19px;
-   
 }
-
-
 
 
 /*
@@ -391,70 +386,50 @@ header {
     background: url(../img/Layer%2041.png)
 }
 
+
+/*footer*/
+
 footer {
     margin-top: 119px;
     height: 428px;
     background-color: beige;
     display: flex;
+    justify-content: center;
 }
 
 .footer__logotext {
+    width: 427px;
+    height: 238px;
     display: inline-block;
     background-color: bisque;
 }
 
-.footer__menu__company__list {
+.footer__logotext img {}
+
+.footer__logotext p {
+    font-family: Lato;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer__menu__company ul {
+    width: 154px;
+    height: 238px;
     display: inline-block;
     background-color: bisque;
     font-family: Lato;
     color: #222222;
     font-size: 14px;
     font-weight: 700;
-    line-height: 51px;
+    line-height: 40px;
     text-transform: capitalize;
     list-style-type: none;
 }
 
-.footer__menu__company__list li:first-child {
-    color: #f16d7f;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.footer__menu__information__list {
-    display: inline-block;
-    background-color: bisque;
-    list-style-type: none;
-    font-family: Lato;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 51px;
-    text-transform: capitalize;
-    list-style-type: none;
-}
-
-.footer__menu__information__list li:first-child {
-    color: #f16d7f;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.footer__menu__shopcategory__list {
-    display: inline-block;
-    background-color: bisque;
-    font-family: Lato;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 51px;
-    text-transform: capitalize;
-    list-style-type: none;
-}
-
-.footer__menu__shopcategory__list li:first-child {
+.footer__menu__company ul li:first-child {
     color: #f16d7f;
     font-size: 18px;
     text-transform: uppercase;
@@ -463,6 +438,7 @@ footer {
 
 .footer__copyright {
     height: 79px;
+       align-self: flex-end;
     background-color: #e6e6e6;
 }
 
