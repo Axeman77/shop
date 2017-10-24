@@ -9,6 +9,13 @@
     min-height: 100%;
 }
 
+
+/*header*/
+
+header {
+    height: 151px;
+}
+
 .containerlogo {
     border-style: solid;
     border-width: 1px;
@@ -18,7 +25,9 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
 }
 
-.containerlogo_logo {}
+.containerlogo_logo {
+    float: left;
+}
 
 .logo__item1 {
     padding-left: 227px;
@@ -26,10 +35,20 @@
     padding-top: 20px;
 }
 
-.logo__item2 {
-    padding-left: 13px;
-    padding-bottom: 35px;
-    padding-top: 45px;
+.containerlogo_search {
+    float: left;
+    padding-left: 46px;
+    padding-top: 32px;
+}
+
+.containerlogo_search form input {
+    font-family: Lato;
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 16px;
 }
 
 
@@ -50,6 +69,10 @@
     height: 38px;
 }
 */
+
+.clearfix {
+    clear: both;
+}
 
 
 /*main-menu*/
@@ -279,13 +302,12 @@
     background: url(../img/Layer%2041.png)
 }
 
-.footer {
+footer {
     margin-top: 119px;
     height: 428px;
     background-color: beige;
     display: flex;
 }
-
 
 .footer__logotext {
     display: inline-block;
@@ -304,7 +326,7 @@
     list-style-type: none;
 }
 
-    .footer__menu__company__list li:first-child {
+.footer__menu__company__list li:first-child {
     color: #f16d7f;
     font-size: 18px;
     text-transform: uppercase;
@@ -357,6 +379,3 @@
 
 
 /*Стили для страницы Single*/
-
-
-
