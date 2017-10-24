@@ -6,6 +6,7 @@
 .container {
     width: 1600px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 .containerlogo {
@@ -282,14 +283,11 @@
     margin-top: 119px;
     height: 428px;
     background-color: beige;
+    display: flex;
 }
 
-.footer__menu__company: {
-    height: 379;
-    background-color: aqua;
-}
 
-.footer__menu__company__logotext {
+.footer__logotext {
     display: inline-block;
     background-color: bisque;
 }
@@ -306,7 +304,7 @@
     list-style-type: none;
 }
 
-.footer__menu__company__list li:first-child {
+    .footer__menu__company__list li:first-child {
     color: #f16d7f;
     font-size: 18px;
     text-transform: uppercase;
@@ -356,3 +354,9 @@
     height: 79px;
     background-color: #e6e6e6;
 }
+
+
+/*Стили для страницы Single*/
+
+
+
