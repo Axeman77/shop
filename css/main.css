@@ -41,15 +41,97 @@ header {
     padding-top: 32px;
 }
 
+.containerlogo_search form select {
+    width: 87px;
+    height: 32px;
+    padding-left: 15px;
+    font-family: Lato;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+    background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+}
+
 .containerlogo_search form input {
+    width: 317px;
     font-family: Lato;
     color: #a4a4a4;
     font-size: 14px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 30px;
     text-align: left;
     padding-left: 16px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
 }
+
+.containerlogo_search form input[type=image] {
+    width: 11px;
+    height: 11px;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+}
+
+.contanierlogo__accaunt {
+    float: right;
+}
+
+.containerlogo__accaunt form select {
+    width: 87px;
+    height: 32px;
+    padding-left: 15px;
+    font-family: Lato;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+    background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+}
+
+
+
+/*
+.containerlogo_serch form input {
+    width: 87px;
+    height: 38px;
+    border-color: #e6e6e6;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+    background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+}
+*/
 
 
 /*
