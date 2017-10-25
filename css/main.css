@@ -448,6 +448,10 @@ footer {
     margin-top: 24px;
 }
 
+.social a {
+    text-decoration: none;
+}
+
 .spritep,
 .spritef,
 .spriteg,
@@ -457,7 +461,6 @@ footer {
     background: url(../img/sprite.png) no-repeat;
     overflow: hidden;
     text-indent: -9999px;
-    
 }
 
 .spritep {
@@ -497,3 +500,42 @@ footer {
 
 
 /*Стили для страницы Single*/
+
+.singlecont {
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.singlecont__breadcrump {
+    background-color: #f8f3f4;
+    height: 148px;
+    width: 100%;
+}
+
+.singlecont__imageslider {
+    height: 777px;
+    width: 100%;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #eaeaea;
+    background-color: #f7f7f7;
+}
+
+.singlecont__wrapperproduct {
+    margin: auto;
+    width: 1141px;
+}
+
+.singlecont__wrapperproduct__pdescription {
+    height: 730px;
+    margin-top: -86px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #eaeaea;
+    background-color: #ffffff;
+}
+
+.singlecont__wrapperproduct__pcard {
+    height: 488px;
+}
