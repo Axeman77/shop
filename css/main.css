@@ -378,29 +378,33 @@ header {
 }
 
 
-/*subsribe*/
-
-.subsribe {
-    margin-top: 97px;
-    height: 438px;
-    background: url(../img/Layer%2041.png)
-}
-
-
 /*footer*/
+
+
+
+
+
 
 footer {
     margin-top: 119px;
     height: 428px;
     background-color: beige;
-    display: flex;
+    
     justify-content: center;
+}
+
+.subsribe {
+    height: 438px;
+    width: 100%;
+    margin-top: 97px;
+    margin-bottom: 109px;
+    background: url(../img/Layer%2041.png)
 }
 
 .footer__logotext {
     width: 427px;
     height: 238px;
-    display: inline-block;
+    display: flex;
     background-color: bisque;
 }
 
@@ -438,6 +442,7 @@ footer {
 
 .footer__copyright {
     height: 79px;
+    width: 100%;
        align-self: flex-end;
     background-color: #e6e6e6;
 }
