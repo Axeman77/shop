@@ -558,15 +558,7 @@ footer {
 .singlecont__wrapperproduct {
     margin: auto;
     width: 1141px;
-}
-
-.singlecont__wrapperproduct__pdescription {
-    height: 730px;
-    margin-top: -86px;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-color: #eaeaea;
-    background-color: #ffffff;
+    position: relative;
 }
 
 .singlecont__wrapperproduct__pcard {
@@ -598,9 +590,111 @@ footer {
     opacity: 1;
 }
 
-
 .singlecont__imageslider img {
     display: block;
     margin-left: 467px;
     padding-top: 11px;
+}
+
+.singlecont__wrapperproduct__pdescription {
+    height: 730px;
+    margin-top: -86px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #eaeaea;
+    background-color: #ffffff;
+}
+
+.singlecont__wrapperproduct__pdescription h1 {
+    padding-top: 73px;
+    margin-bottom: 14px;
+    font-family: Lato;
+    color: #f16d7f;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.singlecont__wrapperproduct__pdescription_devider {
+    height: 3px;
+    width: 147px;
+    background-image: url(../img/Devider.png);
+    margin: 0 auto;
+}
+
+.singlecont__wrapperproduct__pdescription h2 {
+    margin-top: 17px;
+    font-family: Lato;
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.singlecont__wrapperproduct__pdescription_descr {
+    width: 618px;
+    margin: 67px 0 28px 262px;
+    font-family: Lato;
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.singlecont__wrapperproduct_pdesc {
+    margin-bottom: 37px;
+}
+
+.singlecont__wrapperproduct_pdesc p {
+    float: left;
+    font-family: Lato;
+    color: #b9b9b9;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.singlecont__wrapperproduct_pdesc_pn {
+    margin-left: 404px;
+    margin-right: 44px;
+}
+
+.singlecont__wrapperproduct_pdesc p span {
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+.singlecont__wrapperproduct__pdescription h3 {
+    margin-bottom: 43px;
+    font-family: Lato;
+    color: #ef5b70;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.singlecont__wrapperproduct__pdescription_line {
+    height: 1px;
+    width: 642px;
+    background-image: url(../img/Line.png);
+    margin: 0 auto;
+}
+
+.singlecont__wrapperproduct__pdescription_forms {
+    margin-top: 76px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 144px;
+    height: 35px;
 }
