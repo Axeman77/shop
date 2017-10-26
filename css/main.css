@@ -513,6 +513,28 @@ footer {
     width: 100%;
 }
 
+.singlecont__breadcrump_name {
+    float: left;
+    margin: 65px 770px 0 228px;
+    font-family: Lato;
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.singlecont__breadcrump_link {
+    float: left;
+    margin-top: 69px;
+    font-family: Lato;
+    color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
 .singlecont__imageslider {
     height: 777px;
     width: 100%;
