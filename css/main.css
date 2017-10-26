@@ -690,11 +690,51 @@ footer {
 
 .singlecont__wrapperproduct__pdescription_forms {
     margin-top: 76px;
+    margin-left: 302px;
+    margin-right: 205px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlecont__wrapperproduct__pdescription_forms legend {
+padding-bottom: 16px;
+    font-family: Lato;
+color:  #2f2f2f;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+}
+    
+    
+#color,
+#size,
+#quantity {
+    width: 144px;
+    height: 35px;
     border-style: solid;
     border-width: 1px;
     border-color: #eaeaea;
     box-sizing: border-box;
     background-color: #ffffff;
-    width: 144px;
-    height: 35px;
+    font-family: Lato;
+    color: #bcbcbc;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.singlecont__wrapperproduct__pdescription_btn button {
+width: 537px;
+height: 55px;
+    background-image: url(../img/Forma%201%20copy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+border-width: 1px;
+border-color:  #ef5b70;
+box-sizing: border-box;
+background-color:  #ffffff;
+
 }
