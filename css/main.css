@@ -728,8 +728,7 @@ text-transform: uppercase;
 .singlecont__wrapperproduct__pdescription_btn button {
 width: 537px;
 height: 55px;
-    background-image: url(../img/Forma%201%20copy.png);
-    background-repeat: no-repeat;
+       background-repeat: no-repeat;
     background-position: center;
     border-style: solid;
 border-width: 1px;
