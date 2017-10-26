@@ -572,3 +572,35 @@ footer {
 .singlecont__wrapperproduct__pcard {
     height: 488px;
 }
+
+.singlecont__imageslider button {
+    height: 47px;
+    width: 47px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    opacity: .5;
+}
+
+.singlecont__imageslider button.left_btn {
+    float: left;
+    background-image: url(../img/Arrow.png);
+    margin-top: 365px;
+}
+
+.singlecont__imageslider button.right_btn {
+    float: right;
+    background-image: url(../img/Arrow%20copy.png);
+    margin-top: -365px;
+}
+
+.singlecont__imageslider button:hover {
+    opacity: 1;
+}
+
+
+.singlecont__imageslider img {
+    display: block;
+    margin-left: 467px;
+    padding-top: 11px;
+}
