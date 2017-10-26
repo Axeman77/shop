@@ -515,7 +515,7 @@ footer {
 
 .singlecont__breadcrump_name {
     float: left;
-    margin: 65px 770px 0 228px;
+    margin: 65px 764px 0 228px;
     font-family: Lato;
     color: #f16d7f;
     font-size: 24px;
@@ -528,11 +528,22 @@ footer {
     float: left;
     margin-top: 69px;
     font-family: Lato;
-    color: #636363;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.singlecont__breadcrump_link a {
+    color: #636363;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.singlecont__breadcrump_link a:last-child {
+    color: #f16d7f;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .singlecont__imageslider {
