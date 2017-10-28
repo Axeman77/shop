@@ -783,6 +783,25 @@ text-transform: uppercase;
     height: 364px;
 }
 
+.singlecont__wrapperproduct__pcard_card1 p {
+   
+font-family: Lato;
+color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+text-transform: uppercase;
+}
+
+.singlecont__wrapperproduct__pcard_card1 span {
+ display: block;  
+font-family: Lato;
+color: #f16d7f;
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+}
+
 .pcard_card1 img {
     padding: 5px 86px  5px 82px;
     
@@ -807,12 +826,6 @@ text-transform: uppercase;
 
 }
 
-.pcard_card2 {
-    width: 261px;
-    height: 280px;
-    background-color: #e9e9e9;
-
-}
 
 .pcard_card4 {
     width: 261px;
