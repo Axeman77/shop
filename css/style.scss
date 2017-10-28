@@ -10,7 +10,11 @@ $width: 1142px;
 }
 
 .productdet__prodcart__name {
+	display: flex;
+	justify-content: space-around;
 	height: 32px;
+	& span {display: block;}
+	& .first {margin-right: 50px;}
 }
 
 .productdet__condition {

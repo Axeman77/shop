@@ -6,7 +6,16 @@
   width: 100%; }
 
 .productdet__prodcart__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 32px; }
+  .productdet__prodcart__name span {
+    display: block; }
+  .productdet__prodcart__name .first {
+    margin-right: 50px; }
 
 .productdet__condition {
   width: 100%; }
