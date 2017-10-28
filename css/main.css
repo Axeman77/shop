@@ -781,6 +781,11 @@ text-transform: uppercase;
 .singlecont__wrapperproduct__pcard_card1 {
     width: 263px;
     height: 364px;
+   
+}
+
+.singlecont__wrapperproduct__pcard_card1 a {
+        text-decoration: none;
 }
 
 .singlecont__wrapperproduct__pcard_card1 p {
