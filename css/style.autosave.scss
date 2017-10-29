@@ -1,6 +1,5 @@
 $width: 1142px;
 
-
 .productdet {
 	width: $width;
 	margin: 0 auto;
@@ -15,12 +14,6 @@ $width: 1142px;
 	justify-content: space-around;
 	height: 32px;
 	text-transform: uppercase;
-	color: #222222;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 20px;
-	text-align: left;
-	font-family: Lato;
 
 	& span {display: block;}
 	& span:first-child {margin-right: 50px;}

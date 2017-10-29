@@ -6,16 +6,13 @@
   width: 100%; }
 
 .productdet__prodcart__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 32px;
-  text-transform: uppercase;
-  color: #222222;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: left;
-  font-family: Lato; }
+  text-transform: uppercase; }
   .productdet__prodcart__name span {
     display: block; }
   .productdet__prodcart__name span:first-child {
@@ -23,5 +20,3 @@
 
 .productdet__condition {
   width: 100%; }
-
-/*# sourceMappingURL=style.css.map */
