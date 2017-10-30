@@ -55,8 +55,14 @@
                 </ul>
             </nav>
         </header>
-
+ <section class="singlecont__breadcrump productdet__singlecont__breadcrump" >
+                <p class="singlecont__breadcrump_name">new arrivals</p>
+                <p class="singlecont__breadcrump_link"><a href="index.html">home</a>/<a href="#">men</a>/<a href="#">new arrivals</a></p>
+                <div class="clearfix"></div>
+            </section>
+            
         <main class="productdet"> 
+
 
             <section class="productdet__prodcart"> 
                 <div class="productdet__prodcart__name">
@@ -135,12 +141,19 @@
                <div class="productdet__condition__discount">
                    <form action="get">
                         <legend>coupon discount</legend>
+                        <p>Enter your coupon code if you have one</p>
                         <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
                         <button>apply coupon</button>
                     </form>
                </div>
                <div class="productdet__condition__total">
-                   
+                
+                   <span class="subtotal">sub total $900</span>
+                   <h1 class="grandtotal">grand total <span class="grandtotal_price">$900</span></h1>
+
+                   <div class="productdet__condition__total__btn">
+                       <button>proceed to checkout</button>
+                   </div>
                </div>
 
             </section>

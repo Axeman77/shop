@@ -6,9 +6,16 @@ $font: Lato;
 	margin: 0 auto;
 }
 
+.productdet__singlecont__breadcrump {
+	$width: 1600px;
+	width: $width;
+
+}
+
 .productdet__prodcart {
 	width: 100%
 }
+
 
 .productdet__prodcart__name {
 	display: flex;
@@ -147,6 +154,7 @@ $font: Lato;
 .productdet__condition {
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
 
 
 .productdet__condition__adress {
@@ -223,6 +231,14 @@ $font: Lato;
 	margin-bottom: 22px;
 }
 
+& p {
+	font-family: $font;
+	color:	#000000;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+}
+
 & input  {
 	width: 337px; 
 	height: 45px;
@@ -252,4 +268,62 @@ $font: Lato;
 	text-transform: uppercase;
 	}
 
+}
+
+.productdet__condition__total {
+	width: 360px;
+	height: 214px;
+	background-color: #f5f3f3;
+
+
+
+	.subtotal {
+		display: block;
+		margin-top: 40px;
+		margin-right: 42px;
+		font-family: $font;
+		color: #4a4a4a;
+		font-size: 11px;
+		font-weight: 400;
+		text-align: right;
+		text-transform: uppercase;
+	}
+
+	.grandtotal {
+		font-family: $font;
+		color:	#222222;
+		font-size: 16px;
+		font-weight: 700;
+		text-align: right;
+		text-transform: uppercase;
+		margin-top: 14px;
+		margin-right: 42px;
+	}
+	.grandtotal_price {	
+		font-family: $font;
+		padding-left: 15px;
+		color: #f16d7f;
+		font-size: 16px;
+		font-weight: 700;
+		text-align: left;
+		}
+	
+
+	.productdet__condition__total__btn{
+		width: 273px;
+		height: 107px;
+		margin: auto;
+		border-top: 1px solid #e2e2e2;
+	
+	& button {
+	width: 273px;
+	height: 50px;
+	background-color:#f16d7f;
+	margin-top: 17px;
+	font-family: $font;
+	color:	#ffffff;
+	font-size: 16px;
+	font-weight: 700;
+				  }
+		}
 }

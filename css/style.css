@@ -2,16 +2,15 @@
   width: 1142px;
   margin: 0 auto; }
 
+.productdet__singlecont__breadcrump {
+  width: 1600px; }
+
 .productdet__prodcart {
   width: 100%; }
 
 .productdet__prodcart__name {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 32px;
   text-transform: uppercase;
   color: #222222;
@@ -28,8 +27,6 @@
     margin-right: 300px; }
 
 .productdet__prodcart__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 20px;
   border-top: 1px solid #eaeaea;
@@ -70,12 +67,8 @@
     width: 60%;
     margin-right: 20px;
     padding-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    justify-content: space-between; }
     .productdet__prodcart__description .productdet__prodcart__description__con input {
       width: 54px;
       height: 30px;
@@ -98,12 +91,8 @@
   border-bottom: 1px solid #eaeaea; }
 
 .productdet__prodcart__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 44px 0 63px 0; }
 
 .productdet__prodcart__btn1 {
@@ -121,9 +110,8 @@
 
 .productdet__condition {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   .productdet__condition .productdet__condition__adress {
     width: 355px;
     height: 268px; }
@@ -185,6 +173,12 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 22px; }
+  .productdet__condition__discount p {
+    font-family: Lato;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left; }
   .productdet__condition__discount input {
     width: 337px;
     height: 45px;
@@ -211,3 +205,50 @@
     font-size: 11px;
     font-weight: 900;
     text-transform: uppercase; }
+
+.productdet__condition__total {
+  width: 360px;
+  height: 214px;
+  background-color: #f5f3f3; }
+  .productdet__condition__total .subtotal {
+    display: block;
+    margin-top: 40px;
+    margin-right: 42px;
+    font-family: Lato;
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase; }
+  .productdet__condition__total .grandtotal {
+    font-family: Lato;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-right: 42px; }
+  .productdet__condition__total .grandtotal_price {
+    font-family: Lato;
+    padding-left: 15px;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left; }
+  .productdet__condition__total .productdet__condition__total__btn {
+    width: 273px;
+    height: 107px;
+    margin: auto;
+    border-top: 1px solid #e2e2e2; }
+    .productdet__condition__total .productdet__condition__total__btn button {
+      width: 273px;
+      height: 50px;
+      background-color: #f16d7f;
+      margin-top: 17px;
+      font-family: Lato;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */
