@@ -131,6 +131,7 @@ color: lightgray;
     line-height: 32px;
     text-transform: capitalize;
     padding-left: 19px;
+    outline: none;
 }
 
 .contanierlogo__accaunt form select:hover {
@@ -207,8 +208,7 @@ color: lightgray;
 
 .slider_content {
     width: 1600px;
-    height: 675px;
-    background: url(../img/Rectangle%2016%20copy.png) no-repeat 275px 230px, url(../img/text.png) no-repeat 295px 230px, url(../img/Layer%2024.png);
+
 }
 
 
@@ -216,19 +216,38 @@ color: lightgray;
 
 .category_content {
     width: 1141px;
-    height: 823px;
     margin: auto;
-    margin-top: 75px;
-    background: url(../img/Category.png);
+    margin-top: 110px;
+    display: flex;
 }
 
+.category_content__left {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; 
+}
+
+.category_content__left img:first-child {
+    margin-bottom: 20px;
+}
+
+.category_content__right {
+    width: 560px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.category_content__right img:first-child {
+    margin-bottom: 20px;
+}
 
 /*fetured*/
 
 .fetured {
     width: 1141px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .fetured_item1 {
