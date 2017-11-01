@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Single page</title>
@@ -8,165 +7,176 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 </head>
-
-
-<body>
+  <body>
     <div class="container">
-       <header>
+      <header>
         <div class="containerlogo">
           <div class="containerlogo_logo">
-                <a href="index.html">
-                  <img class="logo__item1" src="../iShop/img/Logo%20%20copy.png" alt="logo">
-                </a>
-              </div>
-            <div class="containerlogo_search">
-              <form action="get">
-                <select name="browse" id="browse">
-                  <option value="mango">browse</option>
-                </select>
-                <input type="search" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="search" placeholder="Search for Item...">
-                <button></button>
-              </form>
-            </div>
-            <div class="contanierlogo__accaunt">
-              <form action="get">
-                <select name="browse" id="browse">
-                  <option value="accaunt">my accaunt</option>
-                </select>
-              </form>
-              <a href="#">
-                <img src="../iShop/img/Forma%201.png" alt="in">
-              </a>
-            </div>
+            <a href="index.html">
+              <img class="logo__item1" src="../iShop/img/Logo%20%20copy.png" alt="logo">
+            </a>
           </div>
-            <div class="clearfix"></div>
-          <nav class="main-menu">
-            <ul class="main-menu_list">
-              <li class="main-menu_list__item__active"><a href="#">home</a></li>
-              <li class="main-menu_list__item"><a href="#">man</a></li>
-              <li class="main-menu_list__item"><a href="#">woman</a></li>
-              <li class="main-menu_list__item"><a href="#">kids</a></li>
-              <li class="main-menu_list__item"><a href="#">accoseriese</a></li>
-              <li class="main-menu_list__item"><a href="#">featured</a></li>
-              <li class="main-menu_list__item"><a href="#">hot deals</a></li>
-            </ul>
-          </nav>
-        </header>
-        <main class="singlecont">
-            <section class="singlecont__breadcrump">
-                <p class="singlecont__breadcrump_name">new arrivals</p>
-                <p class="singlecont__breadcrump_link"><a href="index.html">home</a>/<a href="#">men</a>/<a href="#">new arrivals</a></p>
-                <div class="clearfix"></div>
-            </section>
-
-            <section class="singlecont__imageslider">
-                <button class="left_btn"></button>
-                <img src="img/Layer%2042.png" alt="women">
-                <button class="right_btn"></button>
-                <div class="clearfix"></div>
-            </section>
-
-            <section class="singlecont__wrapperproduct">
-
-                <section class="singlecont__wrapperproduct__pdescription">
-                <h1>women collection</h1>
-                <div class="singlecont__wrapperproduct__pdescription_devider"></div>
-                <h2>moschino cheap and chic</h2>
-                <p class="singlecont__wrapperproduct__pdescription_descr">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
-                <div class="singlecont__wrapperproduct_pdesc">
-                    <p class="singlecont__wrapperproduct_pdesc_pn">material:<span>cotton</span></p>
-                    <p class="singlecont__wrapperproduct_pdesc_pd">designer:<span>binburhan</span></p>
-                    <div class="clearfix"></div>
-                </div>
-                <h3>$561</h3>
-                
-                <div class="singlecont__wrapperproduct__pdescription_line"></div>
-                
-                
-                
-                <form class="singlecont__wrapperproduct__pdescription_forms" action="get">
-                    <div class="singlecont__wrapperproduct__pdescription_forms_div1">
-                    <legend>choose color</legend>
-                    <select id="color">
-                    <option value="color">red</option>
-                    <option value="color">blue</option>
+          <div class="containerlogo_search">
+            <form action="get">
+              <select name="browse" id="browse">
+                <option value="mango">browse</option>
+              </select>
+              <input type="search" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="search" placeholder="Search for Item...">
+              <button></button>
+            </form>
+          </div>
+          <div class="contanierlogo__accaunt">
+            <form action="get">
+              <select name="browse" id="browse">
+                <option value="accaunt">my accaunt</option>
+              </select>
+            </form>
+            <a href="#">
+              <img src="../iShop/img/Forma%201.png" alt="in">
+            </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <nav class="main-menu">
+          <ul class="main-menu_list">
+            <li class="main-menu_list__item"><a href="#">home</a></li>
+            <li class="main-menu_list__item__active"><a href="#">man</a></li>
+            <li class="main-menu_list__item"><a href="#">woman</a></li>
+            <li class="main-menu_list__item"><a href="#">kids</a></li>
+            <li class="main-menu_list__item"><a href="#">accoseriese</a></li>
+            <li class="main-menu_list__item"><a href="#">featured</a></li>
+            <li class="main-menu_list__item"><a href="#">hot deals</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="singlecont">
+        <section class="singlecont__breadcrump">
+          <p class="singlecont__breadcrump_name">new arrivals</p>
+          <p class="singlecont__breadcrump_link">
+            <a href="index.html">home</a>/<a href="#">men</a>/<a href="#">new arrivals</a>
+          </p>
+          <div class="clearfix"></div>
+        </section>
+        <section class="singlecont__imageslider">
+          <button class="left_btn"></button>
+            <img src="img/Layer%2042.png" alt="women">
+          <button class="right_btn"></button>
+          <div class="clearfix"></div>
+        </section>
+        <div class="singlecont__wrapperproduct">
+          <section class="singlecont__wrapperproduct__pdescription">
+            <h1>women collection</h1>
+            <div class="singlecont__wrapperproduct__pdescription_devider"></div>
+            <h2>moschino cheap and chic</h2>
+            <p class="singlecont__wrapperproduct__pdescription_descr">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
+            <div class="singlecont__wrapperproduct_pdesc">
+              <p class="singlecont__wrapperproduct_pdesc_pn">material:<span>cotton</span></p>
+              <p class="singlecont__wrapperproduct_pdesc_pd">designer:<span>binburhan</span></p>
+              <div class="clearfix"></div>
+            </div>
+            <h3>$561</h3>
+            <div class="singlecont__wrapperproduct__pdescription_line"></div>
+            <form class="singlecont__wrapperproduct__pdescription_forms" action="get">
+              <div class="singlecont__wrapperproduct__pdescription_forms_div1">
+                <legend>choose color</legend>
+                <select id="color">
+                  <option value="color">red</option>
+                  <option value="color">blue</option>
                 </select>
-                  </div>
-                  <div class="singlecont__wrapperproduct__pdescription_forms_div2">
-                   <legend>choose size</legend>
-                    <select id="size">
-                    <option value="size">xxl</option>
-                    <option value="size">xl</option>
+              </div>
+              <div class="singlecont__wrapperproduct__pdescription_forms_div2">
+                <legend>choose size</legend>
+                <select id="size">
+                  <option value="size">xxl</option>
+                  <option value="size">xl</option>
                 </select>
-                 </div>
-                  <div class="singlecont__wrapperproduct__pdescription_forms_div3">
-                   <legend>quantity</legend>
-                    <select id="quantity">
+              </div>
+              <div class="singlecont__wrapperproduct__pdescription_forms_div3">
+                <legend>quantity</legend>
+                  <select id="quantity">
                     <option value="quantity">2</option>
                     <option value="quantity">1</option>
-                </select>
-                </div>
-                <div class="clearfix"></div>
-                </form>
-                
-                <div class="singlecont__wrapperproduct__pdescription_btn">
-                <button><img src="img/Forma%201%20copy.png" alt="s"> Add to Card</button>
+                  </select>
               </div>
-               
-                </section>
-
-                <section class="singlecont__wrapperproduct__pcard">
-
-                    <h4>you may like also</h4>
-
-                    <div class="singlecont__wrapperproduct__pcard__wrapp"><a href="#">
-                    <div class="singlecont__wrapperproduct__pcard_card1">
-                        <div class="pcard_card1"><img src="img/card1f.png" alt=""> </div>
-                        <p>blaze leggings</p>
-                        <span>$52</span></a>
-                    </div>
-
-                    <div class="singlecont__wrapperproduct__pcard_card1"><a href="#">
-                        <div class="pcard_card1"><img src="img/card2f.png" alt=""> </div>
-                        <p>alexa sweater</p>
-                        <span>$52</span></a>
-                    </div>
-
-                    <div class="singlecont__wrapperproduct__pcard_card1"><a href="#">
-                        <div class="pcard_card1"><img src="img/card3f.png" alt=""> </div>
-                        <p>agnes top</p>
-                        <span>$52</span></a>
-                    </div>
-
-                    <div class="singlecont__wrapperproduct__pcard_card1"><a href="#">
-                        <div class="pcard_card4"><img src="img/card4f.png" alt=""> </div>
-                        <p>sylva sweater</p>
-                        <span>$52</span></a>
-                    </div>
-                    </div>
-
-
-                </section>
-            </section>
-
-        </main>
+              <div class="clearfix"></div>
+            </form>
+            <div class="singlecont__wrapperproduct__pdescription_btn">
+              <button>
+                <img src="img/Forma%201%20copy.png" alt="s"> Add to Card
+              </button>
+            </div>
+          </section>
+          <section class="singlecont__wrapperproduct__pcard">
+            <h4>you may like also</h4>
+            <div class="singlecont__wrapperproduct__pcard__wrapp">
+              <a href="#">
+                <div class="singlecont__wrapperproduct__pcard_card1">
+                  <div class="pcard_card1"><img src="img/card1f.png" alt=""> </div>
+                    <p>blaze leggings</p>
+                    <span>$52</span>
+              </a>
+            </div>
+            <div class="singlecont__wrapperproduct__pcard_card1">
+              <a href="#">
+                <div class="pcard_card1"><img src="img/card2f.png" alt=""> </div>
+                   <p>alexa sweater</p>
+                   <span>$52</span>
+               </a>
+            </div>
+            <div class="singlecont__wrapperproduct__pcard_card1">
+              <a href="#">
+                <div class="pcard_card1"><img src="img/card3f.png" alt=""> </div>
+                  <p>agnes top</p>
+                  <span>$52</span>
+              </a>
+            </div>
+            <div class="singlecont__wrapperproduct__pcard_card1"><a href="#">
+              <div class="pcard_card4"><img src="img/card4f.png" alt=""> </div>
+                <p>sylva sweater</p>
+                <span>$52</span>
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
     </div>
-
-    <footer>
-        <article class="subsribe">
-
-        </article>
-        <div class="footer__logotext">
-            <img src="../iShop/img/Logo%20%20copy.png" alt="logo">
-            <p>
-                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials <br>before go forward benefits. Intrinsicly syndicate an expanded array <br>of processes and cross-unit partnerships.</p>
+      <footer>
+          <article class="subsribe">
+            <div class="subsribe__opinion">
+              <img width="83" src="img/opin.png" alt="foto">
+              <div class="subsribe__opinion_text">
+              <p class="subsribe__opinion_text_art">"Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium"</p>
+              <p class="subsribe__opinion_text_a">Bin Burhan</p>
+              <p class="subsribe__opinion_text_p">Dhaka, Bd</p>
+              <div class="subsribe__opinion__rectangle">
+                <a href="#"><div class="subsribe__opinion__rectangle_rec"></div></a>
+                <a href="#"><div class="subsribe__opinion__rectangle_rec_active"></div></a>
+                <a href="#"><div class="subsribe__opinion__rectangle_rec"></div></a>
+              </div>
+              </div>
+            </div>
+            <div class="subsribe__form__separator">
+              <img src="img/Shape6.png" alt="sep">
+            </div>
+            <div class="subsribe__form">
+              <h3>subsribe</h3>
+              <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+              <form action="get">
+                <input type="email" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="email" placeholder="Enter Your Email">
+                <button>subsribe</button>
+              </form>
+            </div>
+          </article>
+          <div class="footer__logotext">
+            <a href="index.html"><img src="../iShop/img/Logo%20%20copy.png" alt="logo"></a>
+            <p><p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials <br>before go forward benefits. Intrinsicly syndicate an expanded array <br>of processes and cross-unit partnerships.</p>
                 <br>
                 <p> Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. </p>
-        </div>
-        <div class="footer__menu__company">
+          </div>
+          <div class="footer__menu__company">
             <ul class="footer__menu__company__list">
                 <li>company</li>
-                <li><a href="index.html">home</a></li>
+                <li><a href="#">home</a></li>
                 <li><a href="#">shop</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">how it works</a></li>
@@ -191,32 +201,18 @@
                 <li><a href="#">apparel</a></li>
                 <li><a href="#">brows all</a></li>
             </ul>
-
         </div>
-
         <div class="clearfix"></div>
         <div class="footer__copyright">
-            <p>&copy2017 brand all rights reserved.</p>
-
-            <div class="social">
-                <a href="#">
-                    <div class="spritef"></div>
-                </a>
-                <a href="#">
-                    <div class="spritetwit"></div>
-                </a>
-                <a href="#">
-                    <div class="spritein"></div>
-                </a>
-                <a href="#">
-                    <div class="spritep"></div>
-                </a>
-                <a href="#">
-                    <div class="spriteg"></div>
-                </a>
-            </div>
+          <p>&copy2017  oleg antonenkov</p>
+          <div class="social">
+            <a href="#"><div class="spritef"></div></a>
+            <a href="#"><div class="spritetwit"></div></a>
+            <a href="#"><div class="spritein"></div></a>
+            <a href="#"><div class="spritep"></div></a>
+            <a href="#"><div class="spriteg"></div></a>
+          </div>
         </div>
-    </footer>
-</body>
-
+      </footer>
+  </body>
 </html>
