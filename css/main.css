@@ -31,6 +31,10 @@ header {
     float: left;
 }
 
+.containerlogo_logo a:hover {
+   opacity: .5;
+}
+
 .logo__item1 {
     padding-left: 227px;
     padding-bottom: 20px;
@@ -287,6 +291,7 @@ color: lightgray;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .fetured_product1 {
@@ -294,6 +299,34 @@ color: lightgray;
     height: 364px;
     background-color:  #ffffff;
     margin-bottom: 40px;
+    position: relative;
+}
+
+.fetured_product1 .hidden__btn {
+ width: 261px;
+ height: 280px;
+ background-color: rgba(58, 56, 56, 0.83);
+ display: none;
+ position: absolute;
+}
+
+.fetured_product1 .hidden__btn {
+ width: 261px;
+ height: 280px;
+ background-color: rgba(58, 56, 56, 0.83);
+ display: none;
+}
+
+.fetured_product1 .hidden__btn a {
+ width:123px;
+ height: 39px;
+ text-decoration: none;
+ margin-top: 98px;
+ margin-left: 70px;
+ }
+
+.fetured_product:hover .hidden__btn {
+  display: block;
 }
 
 .fetured_product1:hover {
@@ -333,72 +366,8 @@ padding: 10px;
 }
 
 .fetured_product1_link {
-    text-decoration: none;
+ text-decoration: none;
 }
-
-
-
-/*
-.fetured_product1_link a:hover {
-    
-    background: url(../img/Hover.png);
-    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 263px;
-    height: 364px;
-}
-*/
-
-.fetured_product2 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Layer%203.png) no-repeat;
-}
-
-.fetured_product3 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Image.png) no-repeat;
-}
-
-.fetured_product4 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Layer%205.png) no-repeat;
-}
-
-.fetured_product5 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Layer%206.png) no-repeat;
-}
-
-.fetured_product6 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Layer%207.png) no-repeat;
-}
-
-.fetured_product7 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Layer%208.png) no-repeat;
-}
-
-.fetured_product8 {
-    display: inline-block;
-    width: 263px;
-    height: 364px;
-    background: url(../img/Layer%209.png) no-repeat;
-}
-
-
-
 
 /*button*/
 
@@ -407,10 +376,13 @@ padding: 10px;
 }
 
 .button {
+    width: 212px;
+    height: 48px;
     margin-left: 464px;
-    text-decoration: none;
+    outline: none;
     text-align: center;
-    padding: 11px 32px;
+    text-transform: capitalize;
+    padding: 11px 22px;
     border: none;
     font: 16px Lato;
     font-weight: bold;
@@ -419,6 +391,14 @@ padding: 10px;
     -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
     box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.fetured_product_btn i {
+    padding-left: 10px;
+}
+
+.button:hover {
+ background-color: #f51f66;
 }
 
 
@@ -461,7 +441,9 @@ footer {
     margin-left: 227px;
 }
 
-.footer__logotext img {}
+.footer__logotext a:hover {
+   opacity: .5;
+}
 
 .footer__logotext p {
     font-family: Lato;
@@ -502,6 +484,10 @@ footer {
     color: #222222;
 }
 
+.footer__menu__company ul li a:hover {
+   opacity: .5;
+} 
+
 .footer__menu__company ul li:first-child {
     color: #f16d7f;
     font-size: 18px;
@@ -514,6 +500,7 @@ footer {
     width: 100%;
     background-color: #e6e6e6;
     margin-top: 97px;
+    text-transform: capitalize;
 }
 
 .footer__copyright p {
@@ -536,6 +523,11 @@ footer {
 .social a {
     text-decoration: none;
 }
+
+.social div:hover {
+   opacity: .5;
+} 
+
 
 .spritep,
 .spritef,

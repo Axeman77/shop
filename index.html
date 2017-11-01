@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>iShop</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
 </head>
@@ -68,15 +69,19 @@
           <h1 class="fetured_item1">fetured items</h1>
           <h2 class="fetured_item2">Shop for items based on what we featured in this week</h2>
             <div class="fetured_product">
-              <a class="fetured_product1_link" href="#">
-                <div class="fetured_product1">
+              <div class="fetured_product1">
                   <img class="product-photo" src="img/Layer%202.png" alt="t-chirt" width="261" height="280">
-                    <div class="fetured_product_header">
-                      <h3 class="fetured_product1_name">mango people t-shirt</h3>
-                      <span class="fetured_product1_price">$52.00</span>
-                    </div>  
-                </div>
-              </a>
+                  <div class="hidden__btn">
+                    <a class="hidden__btn_button" href="#">
+                      <img src="img/Add.png" alt="button">
+                    </a>
+                  </div>
+                  <div class="fetured_product_header">
+                    <h3 class="fetured_product1_name">mango people t-shirt</h3>
+                    <span class="fetured_product1_price">$52.00</span>
+                  </div>  
+              </div>
+              
               <a class="fetured_product1_link" href="#">
                 <div class="fetured_product1">
                   <img class="product-photo" src="img/Layer%203.png" alt="t-chirt" width="261" height="280">
@@ -141,7 +146,8 @@
                 </div>
               </a>
               <div class="fetured_product_btn">
-                <a href="#" class="button">Browse All Product</a>
+                <button class="button">browse all product<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </button>
               </div>
             </div>
             <div class="feature__banner">
@@ -149,17 +155,17 @@
             </div>
         </section>
     </div>
-    <footer>
-        <div class="subsribe">
-        </div>
-        <div class="footer__logotext">
-            <img src="../iShop/img/Logo%20%20copy.png" alt="logo">
+        <footer>
+          <div class="subsribe">
+          </div>
+          <div class="footer__logotext">
+            <a href="index.html"><img src="../iShop/img/Logo%20%20copy.png" alt="logo"></a>
             <p><p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials <br>before go forward benefits. Intrinsicly syndicate an expanded array <br>of processes and cross-unit partnerships.</p>
                 <br>
                 <p> Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. </p>
-        </div>
-        <div class="footer__menu__company">
-             <ul class="footer__menu__company__list">
+          </div>
+          <div class="footer__menu__company">
+            <ul class="footer__menu__company__list">
                 <li>company</li>
                 <li><a href="#">home</a></li>
                 <li><a href="#">shop</a></li>
@@ -186,22 +192,18 @@
                 <li><a href="#">apparel</a></li>
                 <li><a href="#">brows all</a></li>
             </ul>
-
         </div>
-
         <div class="clearfix"></div>
         <div class="footer__copyright">
-<p>&copy2017  brand  all rights reserved.</p>
-        
-        <div class="social">
+          <p>&copy2017  oleg antonenkov</p>
+          <div class="social">
             <a href="#"><div class="spritef"></div></a>
             <a href="#"><div class="spritetwit"></div></a>
             <a href="#"><div class="spritein"></div></a>
             <a href="#"><div class="spritep"></div></a>
             <a href="#"><div class="spriteg"></div></a>
+          </div>
         </div>
-        </div>
-    </footer>
-</body>
-
+      </footer>
+  </body>
 </html>
