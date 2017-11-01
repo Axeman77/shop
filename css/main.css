@@ -65,6 +65,13 @@ header {
     background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
     background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
     background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+    /*for FF*/
+    /*-moz-appearance:none;
+    text-indent:0.01px;
+    text-overflow: ";
+    background-image: url(img/selar.png;);
+    background-repeat: no-repeat;
+    background-position: right center;*/ 
 }
 
 .containerlogo_search form select:hover {
@@ -207,8 +214,8 @@ color: lightgray;
 /*slider_content*/
 
 .slider_content {
-    width: 1600px;
-
+    width: 1600px;height: 675px;
+    background: url(../img/Rectangle%2016%20copy.png) no-repeat 275px 230px, url(../img/text.png) no-repeat 295px 230px, url(../img/Layer%2024.png);
 }
 
 
