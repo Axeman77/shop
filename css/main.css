@@ -329,7 +329,7 @@ color: lightgray;
  margin-left: 70px;
  }
 
-.fetured_product:hover .hidden__btn {
+.fetured_product1:hover .hidden__btn {
   display: block;
 }
 
@@ -549,6 +549,10 @@ footer {
     border-left: none;
     outline: none;
     text-transform: capitalize;
+}
+
+.subsribe__form form button:hover {
+    opacity: 0.6;
 }
 
 .footer__logotext {

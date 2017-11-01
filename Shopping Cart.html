@@ -8,40 +8,37 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
-    
 </head>
-
-
-<body>
+  <body>
     <div class="container">
-        <header>
+      <header>
         <div class="containerlogo">
           <div class="containerlogo_logo">
-                <a href="index.html">
-                  <img class="logo__item1" src="../iShop/img/Logo%20%20copy.png" alt="logo">
-                </a>
-              </div>
-            <div class="containerlogo_search">
-              <form action="get">
-                <select name="browse" id="browse">
-                  <option value="mango">browse</option>
-                </select>
-                <input type="search" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="search" placeholder="Search for Item...">
-                <button></button>
-              </form>
-            </div>
-            <div class="contanierlogo__accaunt">
-              <form action="get">
-                <select name="browse" id="browse">
-                  <option value="accaunt">my accaunt</option>
-                </select>
-              </form>
+            <a href="index.html">
+              <img class="logo__item1" src="../iShop/img/Logo%20%20copy.png" alt="logo">
+            </a>
+          </div>
+          <div class="containerlogo_search">
+            <form action="get">
+              <select name="browse" id="browse">
+                <option value="mango">browse</option>
+              </select>
+              <input type="search" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="search" placeholder="Search for Item...">
+              <button></button>
+            </form>
+          </div>
+          <div class="contanierlogo__accaunt">
+            <form action="get">
+              <select name="browse" id="browse">
+                <option value="accaunt">my accaunt</option>
+              </select>
+            </form>
               <a href="#">
                 <img src="../iShop/img/Forma%201.png" alt="in">
               </a>
-            </div>
           </div>
-            <div class="clearfix"></div>
+        </div>
+          <div class="clearfix"></div>
           <nav class="main-menu">
             <ul class="main-menu_list">
               <li class="main-menu_list__item__active"><a href="#">home</a></li>
@@ -53,117 +50,104 @@
               <li class="main-menu_list__item"><a href="#">hot deals</a></li>
             </ul>
           </nav>
-        </header>
- <section class="singlecont__breadcrump productdet__singlecont__breadcrump" >
-                <p class="singlecont__breadcrump_name">new arrivals</p>
-                <p class="singlecont__breadcrump_link"><a href="index.html">home</a>/<a href="#">men</a>/<a href="#">new arrivals</a></p>
+      </header>
+      <section class="singlecont__breadcrump productdet__singlecont__breadcrump" >
+        <p class="singlecont__breadcrump_name">new arrivals</p>
+        <p class="singlecont__breadcrump_link"><a href="index.html">home</a>/<a href="#">men</a>/<a href="#">new arrivals</a></p>
+        <div class="clearfix"></div>
+      </section>
+      <main class="productdet"> 
+        <section class="productdet__prodcart"> 
+          <div class="productdet__prodcart__name">
+            <span>product details</span><span>unite price</span><span>quantity</span><span>shipping</span><span>subtotal</span><span>action</span>
+          </div>
+          <div class="productdet__prodcart__description">
+            <div class="productdet__prodcart__description__dsc">
+              <img src="img/Product Image.png" alt="product"> 
+                <p class="productdet__prodcart__description__dsc__head">mango  people  t-shirt</p><p>color:<span>red</span></p> <p>size:<span>xll</span></p>
                 <div class="clearfix"></div>
-            </section>
-            
-        <main class="productdet"> 
+            </div>
+            <div class="productdet__prodcart__description__con">
+              <span>$150</span>
+              <form action="get">
+                <input type="text"  pattern="[0-9]+" title="Только цифры"name="quantity" placeholder="2"> 
+              </form>
+              <span>free</span>
+              <span>$300</span>
+              <a href="#"><img class="productdet__prodcart__description_cancel" src="img/cencel.png" alt="cencel"></a>
+            </div>
+          </div>
+        <div class="productdet__prodcart__description">
+            <div class="productdet__prodcart__description__dsc">
+              <img src="img/Product Image2.png" alt="product"> 
+              <p class="productdet__prodcart__description__dsc__head">mango  people  t-shirt</p><p>color:<span>red</span></p> <p>size:<span>xll</span></p>
+              <div class="clearfix"></div>
+            </div>
+          <div class="productdet__prodcart__description__con">
+            <span>$150</span>
+            <form action="get">
+            <input type="text"  pattern="[0-9]+" title="Только цифры"name="quantity" placeholder="2"> 
+            </form>
+            <span>free</span>
+            <span>$300</span>
+            <a href="#"><img class="productdet__prodcart__description_cancel" src="img/cencel.png" alt="cencel"></a>
+          </div>
+        </div>
+        <div class="productdet__prodcart__description productdet__prodcart__description__last">
+          <div class="productdet__prodcart__description__dsc">
+            <img src="img/Product Image3.png" alt="product"> 
+              <p class="productdet__prodcart__description__dsc__head">mango  people  t-shirt</p><p>color:<span>red</span></p> <p>size:<span>xll</span></p>
+            <div class="clearfix"></div>
+          </div>
+          <div class="productdet__prodcart__description__con">
+            <span>$150</span>
+            <form action="get">
+              <input type="text"  pattern="[0-9]+" title="Только цифры"name="quantity" placeholder="2"> 
+            </form>
+            <span>free</span>
+            <span>$300</span>
+            <a href="#">
+              <img class="productdet__prodcart__description_cancel" src="img/cencel.png" alt="cencel">
+            </a>
+          </div>
+        </div>
+        <div class="productdet__prodcart__btn">
+          <button class="productdet__prodcart__btn1">clear shopping cart</button>
+          <button class="productdet__prodcart__btn1">continue shopping</button>
+        </div>                
+        </section>
+        <section class="productdet__condition">
+          <div class="productdet__condition__adress">
+            <form action="get">
+              <legend>shipping adress</legend>
+                <select name="country" id="country">
+                  <option value="country">bangladesh</option>
+                </select>
+                <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
+                <input type="text" pattern="[0-9]+" title="Только цифры" name="postcode" placeholder="postcode/zip">
+                <button>get a quote</button>
+            </form>
+          </div>
+          <div class="productdet__condition__discount">
+            <form action="get">
+              <legend>coupon discount</legend>
+              <p>Enter your coupon code if you have one</p>
+              <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
+              <button>apply coupon</button>
+            </form>
+          </div>
+          <div class="productdet__condition__total">
+            <span class="subtotal">sub total $900</span>
+            <h1 class="grandtotal">grand total <span class="grandtotal_price">$900</span></h1>
+            <div class="productdet__condition__total__btn">
+              <button>proceed to checkout</button>
+            </div>
+          </div>
+        </section>
 
-
-            <section class="productdet__prodcart"> 
-                <div class="productdet__prodcart__name">
-                    <span>product details</span><span>unite price</span><span>quantity</span><span>shipping</span><span>subtotal</span><span>action</span>
-                </div>
-                <div class="productdet__prodcart__description">
-                    <div class="productdet__prodcart__description__dsc">
-                        <img src="img/Product Image.png" alt="product"> 
-                        <p class="productdet__prodcart__description__dsc__head">mango  people  t-shirt</p><p>color:<span>red</span></p> <p>size:<span>xll</span></p>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="productdet__prodcart__description__con">
-                    <span>$150</span>
-                     <form action="get">
-                       <input type="text"  pattern="[0-9]+" title="Только цифры"name="quantity" placeholder="2"> 
-                    </form>
-                    <span>free</span>
-                    <span>$300</span>
-                    <a href="#"><img class="productdet__prodcart__description_cancel" src="img/cencel.png" alt="cencel"></a>
-                    </div>
-                </div>
-                <div class="productdet__prodcart__description">
-                       <div class="productdet__prodcart__description__dsc">
-                        <img src="img/Product Image2.png" alt="product"> 
-                        <p class="productdet__prodcart__description__dsc__head">mango  people  t-shirt</p><p>color:<span>red</span></p> <p>size:<span>xll</span></p>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="productdet__prodcart__description__con">
-                    <span>$150</span>
-                     <form action="get">
-                       <input type="text"  pattern="[0-9]+" title="Только цифры"name="quantity" placeholder="2"> 
-                    </form>
-                    <span>free</span>
-                    <span>$300</span>
-                    <a href="#"><img class="productdet__prodcart__description_cancel" src="img/cencel.png" alt="cencel"></a>
-                    </div>
-                </div>
-                <div class="productdet__prodcart__description productdet__prodcart__description__last">
-                       <div class="productdet__prodcart__description__dsc">
-                        <img src="img/Product Image3.png" alt="product"> 
-                        <p class="productdet__prodcart__description__dsc__head">mango  people  t-shirt</p><p>color:<span>red</span></p> <p>size:<span>xll</span></p>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="productdet__prodcart__description__con">
-                      <span>$150</span>
-                       <form action="get">
-                         <input type="text"  pattern="[0-9]+" title="Только цифры"name="quantity" placeholder="2"> 
-                      </form>
-                      <span>free</span>
-                      <span>$300</span>
-                      <a class=".productdet__prodcart__description_cancel_link" href="#">
-                        <img class="productdet__prodcart__description_cancel" src="img/cencel.png" alt="cencel">
-                      </a>
-                    </div>
-                </div>
-                <div class="productdet__prodcart__btn">
-                    <button class="productdet__prodcart__btn1">clear shopping cart</button>
-                    <button class="productdet__prodcart__btn1">continue shopping</button>
-                </div>                
-            </section>
-
-            <section class="productdet__condition">
-                <div class="productdet__condition__adress">
-                    <form action="get">
-                        <legend>shipping adress</legend>
-                        <select name="country" id="country">
-                           <option value="country">bangladesh</option>
-                       </select>
-                        <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
-                        <input type="text" pattern="[0-9]+" title="Только цифры" name="postcode" placeholder="postcode/zip">
-                        <button>get a quote</button>
-                    </form>
-                    
-                </div>
-               <div class="productdet__condition__discount">
-                   <form action="get">
-                        <legend>coupon discount</legend>
-                        <p>Enter your coupon code if you have one</p>
-                        <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
-                        <button>apply coupon</button>
-                    </form>
-               </div>
-               <div class="productdet__condition__total">
-                
-                   <span class="subtotal">sub total $900</span>
-                   <h1 class="grandtotal">grand total <span class="grandtotal_price">$900</span></h1>
-
-                   <div class="productdet__condition__total__btn">
-                       <button>proceed to checkout</button>
-                   </div>
-               </div>
-
-            </section>
-
-            
-        </main>
+      </main>
     </div>
-
-     <footer>
+    <footer>
           <article class="subsribe">
             <div class="subsribe__opinion">
               <img width="83" src="img/opin.png" alt="foto">
@@ -237,6 +221,5 @@
           </div>
         </div>
       </footer>
-</body>
-
+  </body>
 </html>

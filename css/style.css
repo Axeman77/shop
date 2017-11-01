@@ -9,8 +9,12 @@
   width: 100%; }
 
 .productdet__prodcart__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 32px;
   text-transform: uppercase;
   color: #222222;
@@ -27,6 +31,8 @@
     margin-right: 300px; }
 
 .productdet__prodcart__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 20px;
   border-top: 1px solid #eaeaea;
@@ -67,8 +73,12 @@
     width: 60%;
     margin-right: 20px;
     padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .productdet__prodcart__description .productdet__prodcart__description__con input {
       width: 54px;
       height: 30px;
@@ -80,19 +90,25 @@
       text-align: center;
       border-style: solid;
       border-width: 1px;
-      border-color: #eaeaea; }
+      border-color: #eaeaea;
+      outline: none; }
     .productdet__prodcart__description .productdet__prodcart__description__con .productdet__prodcart__description_cancel {
       display: block;
       width: 15px;
-      height: 15px;
-      opacity: .6; }
+      height: 15px; }
+    .productdet__prodcart__description .productdet__prodcart__description__con a:hover {
+      opacity: .4; }
 
 .productdet__prodcart__description__last {
   border-bottom: 1px solid #eaeaea; }
 
 .productdet__prodcart__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 44px 0 63px 0; }
 
 .productdet__prodcart__btn1 {
@@ -106,12 +122,20 @@
   color: #4a4a4a;
   font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  outline: none; }
+
+.productdet__prodcart__btn1:hover {
+  opacity: .4; }
 
 .productdet__condition {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .productdet__condition .productdet__condition__adress {
     width: 355px;
     height: 268px; }
@@ -135,7 +159,8 @@
     font-weight: 300;
     text-transform: capitalize;
     padding-left: 16px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    outline: none; }
   .productdet__condition input {
     width: 337px;
     height: 45px;
@@ -149,7 +174,8 @@
     font-weight: 300;
     text-transform: capitalize;
     padding-left: 16px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    outline: none; }
   .productdet__condition button {
     width: 100px;
     height: 35px;
@@ -161,7 +187,10 @@
     color: #4a4a4a;
     font-size: 11px;
     font-weight: 900;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    outline: none; }
+  .productdet__condition button:hover {
+    opacity: .4; }
 
 .productdet__condition__discount {
   width: 355px;
@@ -192,7 +221,8 @@
     font-weight: 300;
     text-transform: capitalize;
     padding-left: 16px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    outline: none; }
   .productdet__condition__discount button {
     width: 118px;
     height: 35px;
@@ -204,7 +234,10 @@
     color: #4a4a4a;
     font-size: 11px;
     font-weight: 900;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    outline: none; }
+  .productdet__condition__discount button:hover {
+    opacity: .4; }
 
 .productdet__condition__total {
   width: 360px;
@@ -250,5 +283,3 @@
       color: #ffffff;
       font-size: 16px;
       font-weight: 700; }
-
-/*# sourceMappingURL=style.css.map */
