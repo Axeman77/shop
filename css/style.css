@@ -1,3 +1,6 @@
+@import url(fonts.css);
+@import url(main.css);
+@import url(normalize.css);
 .productdet {
   width: 1142px;
   margin: 0 auto; }
@@ -288,3 +291,16 @@
   width: 1142px;
   margin: 0 auto;
   background-color: lightblue; }
+  .checkout h2 {
+    font-family: latobold;
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 30px 0; }
+  .checkout h2:first-child {
+    border: none; }
+
+.checkout__forms {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 30px; }

@@ -1,5 +1,11 @@
+@import "fonts.css";
+@import "main.css";
+@import "normalize.css";
+
 $width: 1142px;
 $font: Lato;
+$fontm: latomedium; 
+$fontb: latobold; 
 
 .productdet {
 	width: $width;
@@ -353,5 +359,22 @@ $font: Lato;
 .checkout  {
 	width: $width;
 	margin: 0 auto;
-	background-color: lightgray;
+	background-color: lightblue;
+
+	 h2 {
+	 	font-family: $fontb;
+	 	font-size: 16px;
+		text-align: left;
+		text-transform: uppercase;
+		border-bottom: 1px solid #e8e8e8;
+		padding: 30px 0;
+	 }
+	 h2:first-child {
+	 	border:none;
+	 }
+}
+
+.checkout__forms {
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 30px; 
 }

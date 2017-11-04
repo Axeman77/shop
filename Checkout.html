@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Checkout</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 </head>
   <body>
@@ -40,13 +38,27 @@
         <div class="clearfix"></div>
         <nav class="main-menu">
           <ul class="main-menu_list">
-            <li class="main-menu_list__item"><a href="#">home</a></li>
-            <li class="main-menu_list__item__active"><a href="#">man</a></li>
-            <li class="main-menu_list__item"><a href="#">woman</a></li>
-            <li class="main-menu_list__item"><a href="#">kids</a></li>
-            <li class="main-menu_list__item"><a href="#">accoseriese</a></li>
-            <li class="main-menu_list__item"><a href="#">featured</a></li>
-            <li class="main-menu_list__item"><a href="#">hot deals</a></li>
+            <li class="main-menu_list__item">
+              <a href="#">home</a>
+            </li>
+            <li class="main-menu_list__item__active">
+              <a href="#">man</a>
+            </li>
+            <li class="main-menu_list__item">
+              <a href="#">woman</a>
+            </li>
+            <li class="main-menu_list__item">
+              <a href="#">kids</a>
+            </li>
+            <li class="main-menu_list__item">
+              <a href="#">accoseriese</a>
+            </li>
+            <li class="main-menu_list__item">
+              <a href="#">featured</a>
+            </li>
+            <li class="main-menu_list__item">
+              <a href="#">hot deals</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -57,15 +69,31 @@
         </p>
         <div class="clearfix"></div>
       </section>
-      <main class="checkout">
-        <ol>
-          <li>shipping adress</li>
-          <li>billing information</li>
-          <li>shipping information</li>
-          <li>shipping mehtod</li>
-          <li>payment mehtod</li>
-          <li>order review</li>
-        </ol>
+      <main class="checkout">        
+          <h2>01. shipping adress</h2>
+          <div class="checkout__forms">
+            <div class="checkout__forms__left">
+              <form action="post">
+                <h3>check as a guest or register</h3>
+                <span>Register with us for future convenience</span>
+                <p><input name="guest" type="radio" value="guest">checkout as guest</p>
+                <p><input name="register" type="radio" value="register" checked>register</p>
+                <h4>register and save time!</h4>
+                <span>Register with us for future convenience</span> 
+                <span>Fast and easy checkout</span>
+                <span>Easy access to your order history and status</span>
+                <button></button>
+              </form>
+            </div>
+            <div class="checkout__forms__right">
+              
+            </div> 
+          </div>
+          <h2>02. billing information</h2>
+          <h2>03. shipping information</h2>
+          <h2>04. shipping mehtod</h2>
+          <h2>05. payment mehtod</h2>
+          <h2>06. order review</h2>
       </main>
     </div>
       <footer>
