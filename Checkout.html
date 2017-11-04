@@ -80,13 +80,20 @@
                 <p><input name="register" type="radio" value="register" checked>register</p>
                 <h4>register and save time!</h4>
                 <span>Register with us for future convenience</span> 
-                <span>Fast and easy checkout</span>
-                <span>Easy access to your order history and status</span>
-                <button></button>
+                <span class="checkout__forms__left__info">Fast and easy checkout</span>
+                <span class="checkout__forms__left__info">Easy access to your order history and status</span>
+                <button>continue</button>
               </form>
             </div>
             <div class="checkout__forms__right">
-              
+              <h3>already registed?</h3>
+              <span>please log in below</span>
+                <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
+                <input type="text" pattern="[0-9]+" title="Только цифры" name="postcode" placeholder="postcode/zip">
+                <div class="checkout__forms__right_btn">
+                  <button>log in</button>
+                  <span>forgot password ?</span>
+                </div>
             </div> 
           </div>
           <h2>02. billing information</h2>
