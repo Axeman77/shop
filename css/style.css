@@ -302,5 +302,34 @@
     border: none; }
 
 .checkout__forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.checkout__forms__left {
+  width: 50%;
+  background-color: aqua; }
+
+.checkout__forms {
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 30px; }
+  .checkout__forms .checkout__forms__left__info {
+    display: block; }
+  .checkout__forms button {
+    width: 180px;
+    height: 50px;
+    display: block; }
+
+.checkout__forms__right {
+  width: 50%;
+  background-color: lightgray; }
+  .checkout__forms__right input {
+    display: block; }
+
+.checkout__forms__right_btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .checkout__forms__right_btn span {
+    padding: 20px 0; }
