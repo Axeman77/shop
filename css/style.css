@@ -283,3 +283,8 @@
       color: #ffffff;
       font-size: 16px;
       font-weight: 700; }
+
+.checkout {
+  width: 1142px;
+  margin: 0 auto;
+  background-color: lightblue; }
