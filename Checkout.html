@@ -86,14 +86,19 @@
               </form>
             </div>
             <div class="checkout__forms__right">
-              <h3>already registed?</h3>
-              <span>please log in below</span>
-                <input type="text" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="state" placeholder="state">
-                <input type="text" pattern="[0-9]+" title="Только цифры" name="postcode" placeholder="postcode/zip">
-                <div class="checkout__forms__right_btn">
-                  <button>log in</button>
-                  <span>forgot password ?</span>
-                </div>
+              <form action="post">
+                <h3>already registed?</h3>
+                <span>please log in below</span>
+                <legend>EMAIL ADDRESS<span class="checkout__forms__right_red">*</span></legend>
+                  <input type="email" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="email" placeholder="example@mail.ru">
+                  <legend>PASSWORD<span class="checkout__forms__right_red">*</span></legend>
+                  <input type="password" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="password">
+                  <p class="checkout__forms__right_red">* Required Fileds</p>
+                  <div class="checkout__forms__right_btn">
+                    <button>log in</button>
+                    <span>forgot password ?</span>
+                  </div>
+                </form>
             </div> 
           </div>
           <h2>02. billing information</h2>
