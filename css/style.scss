@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "main.css";
 @import "normalize.css";
+@import "../font-awesome/css/font-awesome.min.css";
 
 $width: 1142px;
 $font: Lato;
@@ -359,8 +360,7 @@ $fontb: latobold;
 .checkout  {
 	width: $width;
 	margin: 0 auto;
-	background-color: lightblue;
-
+	
 	 h2 {
 	 	font-family: $fontb;
 	 	font-size: 16px;
@@ -417,12 +417,21 @@ $fontb: latobold;
 		color: #4a4a4a;
 		font-size: 14px;
 		text-transform: uppercase;
+		background-color: #fff;
+		border-style: solid;
+		border-width: 1px;
+		border-color:	#eaeaea;
+		box-sizing: border-box;
+		margin-right: 32px;
 	} 
+
+.continue:hover {
+	transform: scale(2);
+} 	
 
 .checkout__forms__left {
 	width: 50%;
-	background-color: aqua;
-
+	
 	& form p  {
 		text-transform: uppercase;
 		font-family: $fontm;
@@ -436,23 +445,35 @@ $fontb: latobold;
 
 .checkout__forms__right {
 	width: 50%;
-	background-color: lightgray;
-	
+		
 	& input {
+		width: 390px;
+		height: 45px;
 		display: block;
+		outline: none;
+		border-style: solid;
+		border-width: 1px;
+		border-color:	#eaeaea;
 	}
 
-	& form span {
-		margin-bottom: 27px;
-	}
+	& legend span.checkout__forms__right_red  {
+	color: #ff0d0d;
+}
 
 	& form legend {
 		font-family: $fontm;
 		font-size: 12px;
+		margin-bottom: 5px;
 	}
 }
 
+.checkout__forms__right__below {
+	margin-bottom: 17px;
+}
 
+.checkout__forms__right__pass {
+	margin-top: 5px;
+}
 
 .checkout__forms__right_btn {
 	width: 100%;
@@ -464,6 +485,10 @@ $fontb: latobold;
 		}
 }
 
+.checkout__forms__right_red {
+	color: #ff0d0d;
+}
+
 .login {
 		width: 180px;
 		height: 50px;
@@ -472,4 +497,25 @@ $fontb: latobold;
 		color: #4a4a4a;
 		font-size: 14px;
 		text-transform: uppercase;
+		background-color: #fff;
+		border-style: solid;
+		border-width: 1px;
+		border-color:	#eaeaea;
+		box-sizing: border-box;
+		margin-right: 32px;
+
 }
+
+ .checkout__forms__right_btn a {
+ 	text-decoration: none;
+ 	display: block;
+ 	padding-top: 14px;
+ }
+
+ .checkout__forms__right_btn a:hover {
+	transform: scale(2);
+}
+
+.login:hover {
+	transform: scale(2);
+} 

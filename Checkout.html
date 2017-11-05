@@ -81,24 +81,32 @@
                 <h3>register and save time!</h3>
                 <span>Register with us for future convenience</span>
                 <div class="checkout__forms__left__infow">
-                  <span class="checkout__forms__left__info">Fast and easy checkout</span>
-                  <span class="checkout__forms__left__info">Easy access to your order history and status</span>
+                  <span class="checkout__forms__left__info"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Fast and easy checkout</span>
+                  <span class="checkout__forms__left__info"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Easy access to your order history and status</span>
                 </div> 
                 <button class="continue">continue</button>
               </form>
             </div>
             <div class="checkout__forms__right">
               <form action="post">
-                <h3>already registed?</h3>
-                <span>Please log in below</span>
+                <div class="checkout__forms__right__below">
+                  <h3>already registed?</h3>
+                  <span>Please log in below</span>
+                </div>
                 <legend>EMAIL ADDRESS<span class="checkout__forms__right_red">*</span></legend>
                   <input type="email" pattern="[a-zA-Z]+" title="Проверьте раскладку" name="email" placeholder="example@mail.ru">
-                  <legend>PASSWORD<span class="checkout__forms__right_red">*</span></legend>
-                  <input type="password" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="password">
+                  <div class="checkout__forms__right__pass">
+                    <legend>PASSWORD<span class="checkout__forms__right_red">*</span></legend>
+                    <input type="password" pattern="[a-zA-Z0-9]+" title="Проверьте раскладку" name="password">
+                  </div>
                   <p class="checkout__forms__right_red">* Required Fileds</p>
                   <div class="checkout__forms__right_btn">
                     <button class="login">log in</button>
-                    <span>Forgot password ?</span>
+                    <a href="#">
+                      <span>Forgot password ?</span>
+                    </a>
                   </div>
                 </form>
             </div> 

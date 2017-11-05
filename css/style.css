@@ -1,6 +1,7 @@
 @import url(fonts.css);
 @import url(main.css);
 @import url(normalize.css);
+@import url(../font-awesome/css/font-awesome.min.css);
 .productdet {
   width: 1142px;
   margin: 0 auto; }
@@ -289,8 +290,7 @@
 
 .checkout {
   width: 1142px;
-  margin: 0 auto;
-  background-color: lightblue; }
+  margin: 0 auto; }
   .checkout h2 {
     font-family: latobold;
     font-size: 16px;
@@ -331,11 +331,21 @@
   font-family: latobold;
   color: #4a4a4a;
   font-size: 14px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 32px; }
+
+.continue:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2); }
 
 .checkout__forms__left {
-  width: 50%;
-  background-color: aqua; }
+  width: 50%; }
   .checkout__forms__left form p {
     text-transform: uppercase;
     font-family: latomedium;
@@ -344,15 +354,27 @@
     margin-right: 14px; }
 
 .checkout__forms__right {
-  width: 50%;
-  background-color: lightgray; }
+  width: 50%; }
   .checkout__forms__right input {
-    display: block; }
-  .checkout__forms__right form span {
-    margin-bottom: 27px; }
+    width: 390px;
+    height: 45px;
+    display: block;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea; }
+  .checkout__forms__right legend span.checkout__forms__right_red {
+    color: #ff0d0d; }
   .checkout__forms__right form legend {
     font-family: latomedium;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-bottom: 5px; }
+
+.checkout__forms__right__below {
+  margin-bottom: 17px; }
+
+.checkout__forms__right__pass {
+  margin-top: 5px; }
 
 .checkout__forms__right_btn {
   width: 100%;
@@ -363,6 +385,9 @@
   .checkout__forms__right_btn span {
     padding: 20px 0; }
 
+.checkout__forms__right_red {
+  color: #ff0d0d; }
+
 .login {
   width: 180px;
   height: 50px;
@@ -370,4 +395,24 @@
   font-family: latobold;
   color: #4a4a4a;
   font-size: 14px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 32px; }
+
+.checkout__forms__right_btn a {
+  text-decoration: none;
+  display: block;
+  padding-top: 14px; }
+
+.checkout__forms__right_btn a:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2); }
+
+.login:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2); }
