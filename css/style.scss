@@ -372,6 +372,10 @@ $fontb: latobold;
 	 h2:first-child {
 	 	border:none;
 	 }
+
+	 h2:hover {
+	 	opacity: .3;
+	 }
 }
 
 .checkout__forms {
@@ -520,3 +524,38 @@ $fontb: latobold;
 	transform: scale(2);
 } 
 
+.hide {
+	display: none;
+}
+
+.hide + label ~ div{
+    display: none;
+}
+
+.info {
+	font-family: $fontb;
+	font-size: 16px;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 30px 0;
+}
+
+.hide:checked + label + div {
+    display: flex; 
+    border-bottom: none;
+    }
+
+.info:hover {
+	opacity: .5;
+}    
+
+.infocheck {
+	width: 100%;	
+	border-bottom: 1px solid #e8e8e8;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#billinfo{
+	border-bottom: 1px solid #e8e8e8;
+}
